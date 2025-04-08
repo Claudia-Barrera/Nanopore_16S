@@ -55,7 +55,7 @@ pycoQC -f 01_Basecalling/sequencing_summary.txt -o 02_QualityControl/After_Basec
 ```
 You will get a condensed report After_Basecalling-report.html with figures like this:
 
-![](/pycoQC_result.png)
+![](/Figures/pycoQC_result.png)
 
 
 
