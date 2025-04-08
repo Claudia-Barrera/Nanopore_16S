@@ -30,7 +30,7 @@ CTTGTCCAGGGTTTGTGTAACCTT
 ```
 
 ## 1. Basecalling
-Convert all the .pod5 files saved in the /pass/ folder to .fastq.qz files using the next script. Run this in the AI cluster or in a machine with GPU. Save the results in a new 01_Basecalling folder.
+Convert all the .pod5 files saved in the /pass/ folder to `.fastq.qz` files using the next script. Run this in the AI cluster or in a machine with GPU. Save the results in a new 01_Basecalling folder.
 
 ```bash
 # Create the output folder
@@ -53,9 +53,9 @@ NanoPlot --summary 01_Basecalling/sequencing_summary.txt -o 02_QualityControl -p
 conda activate pycoQC
 pycoQC -f 01_Basecalling/sequencing_summary.txt -o 02_QualityControl/After_Basecalling.html --quiet
 ```
-You will get a condensed report After_Basecalling-repot.html with figures like this:
+You will get a condensed report After_Basecalling-report.html with figures like this:
 
-![Your pycoQC report will look like this](https://github.com/Claudia-Barrera/Nanopore_16S.git/pycoQC_result.png)
+![](/pycoQC_result.png)
 
 
 
