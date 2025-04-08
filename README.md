@@ -57,6 +57,9 @@ You will get a condensed report After_Basecalling-report.html with figures like 
 
 ![](/Figures/pycoQC_result.png)
 
+## 3. Demultiplexing
+
+
 
 
 
