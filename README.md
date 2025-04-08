@@ -53,6 +53,9 @@ NanoPlot --summary 01_Basecalling/sequencing_summary.txt -o 02_QualityControl -p
 conda activate pycoQC
 pycoQC -f 01_Basecalling/sequencing_summary.txt -o 02_QualityControl/After_Basecalling.html --quiet
 ```
+You will get a condensed report After_Basecalling-repot.html with figures like this:
+
+![Your pycoQC report will look like this](https://github.com/Claudia-Barrera/Nanopore_16S.git/Screenshot 2024-01-25 113413.png)
 
 
 
