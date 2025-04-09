@@ -1,4 +1,4 @@
-# Data processing for 16S Nanopore sequencing 🧬
+# Processing of 16S Nanopore sequencing data 🧬
 
 This document describes the steps to process sequencing data obtained from Oxford Nanopore Technology (ONT) for a study of 16S metabarcoding.
 Before starting, please ensure you have installed all the required dependencies. This can be done using conda. If you need to install conda, follow the instructions provided here: https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da
