@@ -30,15 +30,15 @@ CTTGTCCAGGGTTTGTGTAACCTT
 ```
 
 ## 1. Basecalling
-Convert all the .pod5 files saved in the /pass/ folder to `.fastq.qz` files using the next script. Run this in the AI cluster or in a machine with GPU. Save the results in a new 01_Basecalling folder.
+Convert all the .pod5 files saved in the /pod5/ folder to `.fastq.qz` files using the next script. Run this in the AI cluster or in a machine with GPU. Save the results in a new 01_Basecalling folder.
 
 ```bash
 # Create the output folder
 mkdir 01_Basecalling
 # Basecall the .pod5 files
-dorado duplex dna_r10.4.1_e8.2_400bps_sup@v4.2.0 /path/to/raw/data/pass --device cuda:all > 01_Basecalling/my_sequences.bam
+dorado duplex dna_r10.4.1_e8.2_400bps_sup@v4.2.0 /path/to/raw/data/pod5 --device cuda:all > 01_Basecalling/my_sequences.bam
 # Create a summary file
-dorado summary 01_Basecalling/duplex.bam > $OUTDIR/sequencing_summary.txt
+dorado summary 01_Basecalling/duplex.bam > 01_Basecalling/sequencing_summary.txt
 ```
 ## 2. Quality control
 Check the quality of the data using Nanoplot or pycoQC. Use the sequencing_summary.txt file in the 01_Basecalling folder and save the results in a new 02_QualityControl folder.
