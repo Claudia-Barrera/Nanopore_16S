@@ -1,0 +1,297 @@
+tax_id	abundance	lineage	estimated counts
+5498	0.003789243549658579	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;	79.90756797520011
+9403	0.0011270978962392869	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;acidisoli;	23.768240435894082
+8214	0.0012114363437306307	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;borealis;	25.54676961659154
+362	0.0320663735126131	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Occallatibacter;	676.215684633985
+4921	0.00811785847508326	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Rhodanobacter;	171.1893995225558
+4522	0.23030114252760814	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;Acidothermaceae;Acidothermus;	4856.5904936222005
+2912	0.03351604929071888	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;Conexibacter;	706.7864474426797
+4459	0.0084763307854271	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;	178.7488636030867
+4743	0.0014721868698349824	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Tundrisphaera;	31.04547671108011
+9	0.019145105235379444	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;	403.7319792036817
+5386	0.0018386455827092175	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;canariense;	38.77335804817198
+16155	0.006132949988446879	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;lablabi;	129.3316493563678
+8256	0.003782666272863583	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;erythrophlei;	79.76886636214724
+6531	0.04360720925276148	Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family;Acidibacter;	919.5888287222341
+194	0.03399389366650251	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;	716.863229639205
+2988	0.0007131179154840448	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;phenazinium;	15.038230601727536
+7788	0.025195966589019715	Bacteria;Acidobacteriota;Acidobacteriae;Subgroup 2;	531.3325434292477
+8290	0.04492676621169332	Bacteria;Actinobacteriota;Acidimicrobiia;	947.4156458721887
+212	0.004555687253630658	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;	96.07033280456332
+5183	0.03390626381406872	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;	715.0152913110812
+4456	0.028555053794585478	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;	602.1689744202185
+7718	0.046150229340742796	Bacteria;Proteobacteria;Alphaproteobacteria;Elsterales;	973.2160363375841
+4360	0.0024827183331712	Bacteria;Planctomycetota;Phycisphaerae;Tepidisphaerales;WD2101 soil group;	52.35556420991426
+6992	0.013417217744046793	Bacteria;Acidobacteriota;Acidobacteriae;Bryobacterales;Bryobacteraceae;Bryobacter;	282.9422877864588
+16423	0.035699723431662556	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Roseiarcus;	752.8357677268999
+5751	0.00808119262146163	Bacteria;Proteobacteria;Alphaproteobacteria;Micropepsales;Micropepsaceae;	170.41619000138286
+7060	0.001070976535877714	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales;Chthoniobacteraceae;Chthoniobacter;	22.584753188589232
+7224	0.012314812053518533	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);	259.69475658459885
+6329	0.023902544092754482	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;	504.05684982800653
+6516	0.04744468254798706	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidipila-Silvibacterium;	1000.5134655719511
+12438	0.017995167429667294	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;	379.4820907568239
+2417	0.011281739315175055	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidicaldus;	237.90931867841155
+617	0.013414855296284837	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;	282.89246848805465
+7648	0.0006863690972536189	Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales;Diplorickettsiaceae;Aquicella;	14.474151522884316
+5100	0.003420013431215031	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;Frankiaceae;Jatrophihabitans;	72.12124323746258
+285	0.0012063795509726545	Bacteria;Actinobacteriota;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;	25.440131970911338
+12361	0.003604012896225309	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Edaphobacter;	76.00142395559932
+4482	0.00506279817369417	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales;Pedosphaeraceae;	106.76428788686265
+10668	0.008394359334848096	Bacteria;WPS-2;	177.02024965327664
+7234	0.025547443134640066	Bacteria;Proteobacteria;Gammaproteobacteria;WD260;	538.7444808232897
+7174	0.003823689595287131	Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales;Gemmatimonadaceae;	80.63396618541502
+3791	0.0014507643876784456	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;cookii;	30.59371940736306
+5867	0.0008130722880919749	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;kuopiense;	17.14606841128357
+16455	0.004536590382805599	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Aquisphaera;	95.66761799260448
+8562	0.00623113851032072	Bacteria;Chloroflexi;AD3;	131.40224890564335
+18427	0.004843758952816079	Bacteria;Proteobacteria;Gammaproteobacteria;JG36-TzT-191;	102.14518879698547
+3987	0.007250340963472347	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidiphilium;	152.89519023770487
+11848	0.003018518071864467	Bacteria;Myxococcota;Polyangia;Polyangiales;Polyangiaceae;Pajaroellobacter;	63.654509099477885
+928	0.0012697453845434707	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Chitinophaga;	26.77639066925271
+7206	0.006773958641274771	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Puia;	142.84923982720238
+656	0.0018470027593918863	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;	38.9495941900561
+76	0.002283036007637974	Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast;	48.144663329069594
+15916	0.000864674252830427	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Puia;dinghuensis;	18.234250643688046
+6946	0.010582716714237984	Bacteria;RCP2-54;	223.1683300698506
+6310	0.002309359692172979	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidisoma;	48.699777188543784
+6895	0.001530526918558082	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidisphaera;	32.275751658552835
+2736	0.018761164305137593	Bacteria;Actinobacteriota;Acidimicrobiia;IMCC26256;	395.63543286674155
+9591	0.0014034851444070778	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Koribacteraceae;Candidatus Koribacter;	29.596694725256455
+2316	0.0029390425683098586	Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales;	61.9785296805183
+3770	0.0010500149044124654	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Rhodovastum;	22.14271430425007
+5248	0.0006328497712004673	Bacteria;Planctomycetota;Planctomycetes;Planctomycetales;Schlesneriaceae;Schlesneria;	13.345535975075455
+9017	0.0014919683198177961	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;	31.462627928317684
+7623	0.011666123724632545	Bacteria;Acidobacteriota;Acidobacteriae;Solibacterales;Solibacteraceae;Candidatus Solibacter;	246.0152171050511
+6321	0.0011216494736881865	Bacteria;Armatimonadota;Armatimonadia;Armatimonadales;	23.653344101136476
+10689	0.006803691818341975	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;67-14;	143.47625306519555
+6501	0.0010290084102613157	Bacteria;Actinobacteriota;Actinobacteria;Catenulisporales;Actinospicaceae;Actinospica;acidiphila;	21.699729355590627
+6023	0.0076703325823327395	Bacteria;Actinobacteriota;Actinobacteria;Catenulisporales;Actinospicaceae;Actinospica;	161.7519734962328
+6715	0.005865407834841819	Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;	123.68972042114429
+7851	0.0016553189308322121	Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20;	34.907365613389686
+4349	0.0012139671128247624	Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;	25.60013847524859
+1725	0.0035006460154211956	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;	73.82162317320217
+1846	0.0013401782324773011	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Dyella;	28.261678566481326
+16872	0.001993941253186363	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Frateuria;	42.04823314719402
+19421	0.0008617626122081043	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Terracidiphilus;gabretensis;	18.172849966244502
+12976	0.000827572777723688	Bacteria;Dependentiae;Babeliae;Babeliales;Vermiphilaceae;	17.451854736637134
+6091	0.0009632614673866653	Bacteria;Planctomycetota;Planctomycetes;Planctomycetales;	20.313257824249998
+12394	0.0012272684226142807	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;mallensis;	25.880636496089952
+1109	0.0006345196503648817	Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Caulobacter;	13.380750386894626
+16531	0.0004868075163643889	Bacteria;Proteobacteria;Gammaproteobacteria;KF-JG30-C25;	10.265796905092234
+535	0.001460420840294243	Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales;Legionellaceae;Legionella;	30.797354680124997
+4964	0.0008275728087980124	Bacteria;Planctomycetota;Planctomycetes;Pirellulales;Pirellulaceae;	17.451855391932487
+1335	0.00131438029403174	Bacteria;Myxococcota;Polyangia;Haliangiales;Haliangiaceae;Haliangium;	27.71765164054133
+5564	0.0012656987200177776	Bacteria;Planctomycetota;Planctomycetes;Gemmatales;Gemmataceae;	26.691054607734895
+327	0.0007596040061468426	Bacteria;Firmicutes;Bacilli;Paenibacillales;Paenibacillaceae;Paenibacillus;	16.018529281624616
+60	0.0017384390664912815	Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptomyces;	36.66020303416814
+5149	0.001639389430968011	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Rhodopila;	34.57144432025342
+70	0.0006325710615089925	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidocella;	13.339658545101635
+44	0.0011787762506434664	Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales;Mitochondria;	24.85803357356942
+1689	0.0010727135708991015	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Methylacidiphilales;Methylacidiphilaceae;	22.621383783120255
+863	0.0014117368366659254	Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales;Inquilinaceae;Inquilinus;	29.770706411611034
+289	0.0009200684909134239	Bacteria;Actinobacteriota;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Pseudonocardia;	19.402404336382283
+8278	0.0006806958808571648	Bacteria;Acidobacteriota;Acidobacteriae;Subgroup 13;	14.354514735515892
+11656	0.0010709765358777115	Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales;Reyranellaceae;Reyranella;	22.58475318858918
+7	0.0006328497712004673	Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;	13.345535975075455
+6966	0.0005841011024556693	Bacteria;Actinobacteriota;Actinobacteria;Micrococcales;Microbacteriaceae;Galbitalea;	12.317524048585154
+4244	0.0006328497712004703	Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales;Diplorickettsiaceae;	13.345535975075519
+unassigned	0.0		217.0
+9	0.026673611182816123	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;	778.8160993158651
+16155	0.009078700976829633	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;lablabi;	265.07991112147164
+8256	0.003206305590122956	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;erythrophlei;	93.61771062041008
+5183	0.02274071646578814	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;	663.983439368082
+4522	0.17163093684507297	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;Acidothermaceae;Acidothermus;	5011.280094002441
+7718	0.02067928495325183	Bacteria;Proteobacteria;Alphaproteobacteria;Elsterales;	603.793762065047
+2912	0.06168654985451402	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;Conexibacter;	1801.1238826521005
+6516	0.03613025324649607	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidipila-Silvibacterium;	1054.9311342911922
+194	0.03959251717357134	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;	1156.0223164339359
+2988	0.0007370938729376658	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;phenazinium;	21.521666902033967
+7224	0.012765433061098239	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);	372.7251145179464
+617	0.022301780448929116	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;	651.1673855478323
+3791	0.0057083540122244555	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;cookii;	166.67252044892965
+5867	0.0017357430292112115	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;kuopiense;	50.68022496690895
+362	0.019544750811593785	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Occallatibacter;	570.6676341969153
+19421	0.0007541412542080912	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Terracidiphilus;gabretensis;	22.019416340367847
+8059	0.00043650179934711633	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Terracidiphilus;	12.744979537337102
+4456	0.021491950882612795	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;	627.5219818705284
+5564	0.004978683884950005	Bacteria;Planctomycetota;Planctomycetes;Gemmatales;Gemmataceae;	145.36761207277024
+16455	0.017567480657690402	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Aquisphaera;	512.9353002432443
+4459	0.034766634610721735	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;	1015.1161973638532
+76	0.026659324458188183	Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast;	778.3989555301786
+7234	0.020184742828150058	Bacteria;Proteobacteria;Gammaproteobacteria;WD260;	589.3541210963253
+1927	0.004214757464872649	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Singulisphaera;	123.0624884593516
+18462	0.002374160268231822	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Candidatus Nostocoida;	69.32073151183273
+539	0.0005047079390049658	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;japonicum;	14.73646240306699
+5248	0.0027113030478718107	Bacteria;Planctomycetota;Planctomycetes;Planctomycetales;Schlesneriaceae;Schlesneria;	79.16462639176113
+8278	0.00038291502838432614	Bacteria;Acidobacteriota;Acidobacteriae;Subgroup 13;	11.180352998765555
+10668	0.01411045491637742	Bacteria;WPS-2;	411.9970626483879
+10689	0.010471831262466105	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;67-14;	305.75652920148536
+7788	0.009731686129015114	Bacteria;Acidobacteriota;Acidobacteriae;Subgroup 2;	284.14577159498333
+60	0.002584110899516733	Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptomyces;	75.45087004408957
+6310	0.0010610900168640885	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidisoma;	30.981706312397655
+6329	0.038716585439818214	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;	1130.4468616718123
+4743	0.011657430339859859	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Tundrisphaera;	340.3736510632282
+6992	0.00930241909413696	Bacteria;Acidobacteriota;Acidobacteriae;Bryobacterales;Bryobacteraceae;Bryobacter;	271.61203271061095
+7174	0.0017168344638250788	Bacteria;Gemmatimonadota;Gemmatimonadetes;Gemmatimonadales;Gemmatimonadaceae;	50.12813267476465
+5751	0.008194111894724283	Bacteria;Proteobacteria;Alphaproteobacteria;Micropepsales;Micropepsaceae;	239.2516791021596
+212	0.006217537310975912	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;	181.53965440587467
+6966	0.0013216688107050127	Bacteria;Actinobacteriota;Actinobacteria;Micrococcales;Microbacteriaceae;Galbitalea;	38.59008593496496
+656	0.0045120051376483054	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;	131.74152600905524
+9937	0.0003829050602758471	Bacteria;Firmicutes;Bacilli;Paenibacillales;Paenibacillaceae;Paenibacillus;baekrokdamisoli;	11.180061949934183
+7623	0.010558277382712528	Bacteria;Acidobacteriota;Acidobacteriae;Solibacterales;Solibacteraceae;Candidatus Solibacter;	308.2805830204404
+8290	0.04183005002790306	Bacteria;Actinobacteriota;Acidimicrobiia;	1221.3538007147135
+9882	0.0005917777700421206	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Edaphobaculum;	17.278727329689836
+16423	0.032182146579779074	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Roseiarcus;	939.6543158363894
+12438	0.01922023198981839	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;	561.1923336387174
+2417	0.0050746024066514435	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidicaldus;	148.16824106940885
+6715	0.006085655490977223	Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;	177.68896902555295
+5386	0.0046618991804323225	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;canariense;	136.11813227026295
+12361	0.006397643790617063	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Edaphobacter;	186.798403398437
+5100	0.006599014725058735	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;Frankiaceae;Jatrophihabitans;	192.67803194226494
+2736	0.015422997585155349	Bacteria;Actinobacteriota;Acidimicrobiia;IMCC26256;	450.32068349136586
+4482	0.004837924974287525	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales;Pedosphaeraceae;	141.25773339924717
+13174	0.0004670307820770974	Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptacidiphilus;neutrinimicus;	13.63636477508709
+2429	0.0008621265333577778	Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptacidiphilus;	25.172370520980397
+18427	0.003460186696305114	Bacteria;Proteobacteria;Gammaproteobacteria;JG36-TzT-191;	101.03053115871671
+9591	0.0030139512113876413	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Koribacteraceae;Candidatus Koribacter;	88.00134747009635
+1383	0.0029967945452773637	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Comamonadaceae;	87.50040713300847
+6023	0.0062364096245511105	Bacteria;Actinobacteriota;Actinobacteria;Catenulisporales;Actinospicaceae;Actinospica;	182.09068821764333
+4921	0.005295654760953986	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Rhodanobacter;	154.62252771033448
+6531	0.018779001291004273	Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family;Acidibacter;	548.3092796947427
+1846	0.0012013165616815236	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Dyella;	35.07604096797713
+289	0.0017405112931688218	Bacteria;Actinobacteriota;Actinobacteria;Pseudonocardiales;Pseudonocardiaceae;Pseudonocardia;	50.81944873794326
+8291	0.0004879729555394271	Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales;LWQ8;	14.247834355840192
+5392	0.0017597279202650495	Bacteria;Patescibacteria;Saccharimonadia;Saccharimonadales;	51.38053581589892
+12394	0.0006326634501378419	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;mallensis;	18.47250741712471
+4964	0.0034167073017789614	Bacteria;Planctomycetota;Planctomycetes;Pirellulales;Pirellulaceae;	99.76101979734212
+12454	0.0004651697719342406	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;aggregans;	13.582027000935955
+8304	0.000449015515460533	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Methylovirgula;	13.110355020416643
+8562	0.003237348728337421	Bacteria;Chloroflexi;AD3;	94.52410816999601
+10474	0.0003829150281615878	Bacteria;Cyanobacteria;Vampirivibrionia;Obscuribacterales;Obscuribacteraceae;	11.18035299226204
+16872	0.002307350286746671	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Frateuria;	67.3700136724293
+12846	0.0004836616173621595	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;gotjawali;	14.121951903740333
+4417	0.0008336702719362139	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;Solirubrobacter;	24.341504599993574
+2316	0.004827719715581508	Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales;	140.95976025554887
+7206	0.00910223082459203	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Puia;	265.76693561643805
+6946	0.003968390747391384	Bacteria;RCP2-54;	115.86907304233362
+4360	0.005813934429908334	Bacteria;Planctomycetota;Phycisphaerae;Tepidisphaerales;WD2101 soil group;	169.75525748446356
+16560	0.0005484328635564335	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;shigaense;	16.013142750120743
+17584	0.0007704411917003565	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;montefiorense;	22.49534191526701
+928	0.0011010140241937652	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Chitinophaga;	32.147407478409555
+17459	0.0003887985011736239	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidobacterium;	11.35213863726747
+7851	0.001908486325680963	Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20;	55.72398373723276
+1335	0.003698304247718242	Bacteria;Myxococcota;Polyangia;Haliangiales;Haliangiaceae;Haliangium;	107.98308742487723
+5149	0.0010201625345168887	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Rhodopila;	29.786705682824117
+9028	0.0014968496536830302	Bacteria;Planctomycetota;Planctomycetes;Gemmatales;Gemmataceae;Gemmata;	43.70501618823712
+6895	0.0009847615449759379	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidisphaera;	28.753067590207433
+5498	0.0024578123403713246	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;	71.76320471416193
+6669	0.0004847983448061932	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Devosiaceae;	14.155142071651229
+3770	0.0005430307905983767	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Rhodovastum;	15.855413023891403
+3767	0.0005708481567838399	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Oxalobacteraceae;	16.667624481774556
+7313	0.00041941256020347847	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;colombiense;	12.246007932821165
+6501	0.0006753943900538712	Bacteria;Actinobacteriota;Actinobacteria;Catenulisporales;Actinospicaceae;Actinospica;acidiphila;	19.720165400792933
+8214	0.000776205508885929	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;borealis;	22.663648448451355
+9403	0.0006450120958760576	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;acidisoli;	18.833063175389128
+9017	0.0007686950085230584	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;	22.444356858856256
+17575	0.0004879943808733232	Bacteria;Actinobacteriota;Actinobacteria;Micrococcales;Microbacteriaceae;Cryocola;antiquus;	14.248459932739292
+44	0.005025167068106055	Bacteria;Proteobacteria;Alphaproteobacteria;Rickettsiales;Mitochondria;	146.7248280545606
+1823	0.0007269356029700823	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Comamonadaceae;Rhizobacter;	21.225065735520463
+1689	0.0013233263025669852	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Methylacidiphilales;Methylacidiphilaceae;	38.63848138235083
+1725	0.0020018287935631134	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;	58.449397114455785
+4244	0.001079124498863702	Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales;Diplorickettsiaceae;	31.50827711782237
+11857	0.0007310195982873255	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Dinghuibacter;silviterrae;	21.34431023079333
+16550	0.0015661467661930298	Bacteria;Planctomycetota;Phycisphaerae;Tepidisphaerales;CPla-3 termite group;	45.72835327930409
+6091	0.000905005797750075	Bacteria;Planctomycetota;Planctomycetes;Planctomycetales;	26.424359282706693
+11848	0.0018719483375669807	Bacteria;Myxococcota;Polyangia;Polyangiales;Polyangiaceae;Pajaroellobacter;	54.6571475602807
+8215	0.0003829150277484504	Bacteria;Chloroflexi;Ktedonobacteria;Ktedonobacterales;Ktedonobacteraceae;	11.180352980199254
+7648	0.0013924175584385944	Bacteria;Proteobacteria;Gammaproteobacteria;Diplorickettsiales;Diplorickettsiaceae;Aquicella;	40.65580787129008
+13259	0.00047189747886028263	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;mallensis;	13.778462587762533
+12288	0.0004841608601406074	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;	14.136528794385455
+7060	0.0016360914814974267	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales;Chthoniobacteraceae;Chthoniobacter;	47.77059907676186
+3987	0.001484233271912232	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidiphilium;	43.33664307329335
+285	0.0004652137250048794	Bacteria;Actinobacteriota;Actinobacteria;Propionibacteriales;Nocardioidaceae;Nocardioides;	13.583310342692469
+327	0.0006265981954528603	Bacteria;Firmicutes;Bacilli;Paenibacillales;Paenibacillaceae;Paenibacillus;	18.295414110832613
+12976	0.0017666560445438806	Bacteria;Dependentiae;Babeliae;Babeliales;Vermiphilaceae;	51.58282318859223
+10480	0.0003481045706130209	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales;Pedosphaeraceae;Ellin516;	10.163957252758983
+6321	0.0013227973696245535	Bacteria;Armatimonadota;Armatimonadia;Armatimonadales;	38.623037598297714
+18460	0.0005187204138016111	Bacteria;Proteobacteria;Alphaproteobacteria;Elsterales;Elsteraceae;Aliidongia;dinghuensis;	15.145598642179442
+70	0.0010094759557729355	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;Acidocella;	29.47467895665817
+863	0.0008701265234965429	Bacteria;Proteobacteria;Alphaproteobacteria;Azospirillales;Inquilinaceae;Inquilinus;	25.40595423305206
+6722	0.00048735016417028533	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Methylocella;	14.229650093443992
+1621	0.0004873483604808932	Bacteria;Bdellovibrionota;Bdellovibrionia;Bdellovibrionales;Bdellovibrionaceae;Bdellovibrio;	14.22959742932112
+15945	0.0004525359421059843	Bacteria;Armatimonadota;Chthonomonadetes;Chthonomonadales;Chthonomonadaceae;Chthonomonas;	13.21314443761053
+11656	0.0007658300551364023	Bacteria;Proteobacteria;Alphaproteobacteria;Reyranellales;Reyranellaceae;Reyranella;	22.360705949872674
+535	0.0007310195982873255	Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales;Legionellaceae;Legionella;	21.34431023079333
+4349	0.0006395729276919204	Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Phenylobacterium;	18.674250342748692
+1109	0.0005584384717884906	Bacteria;Proteobacteria;Alphaproteobacteria;Caulobacterales;Caulobacteraceae;Caulobacter;	16.30528649928035
+7106	0.00048724844100202333	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;KF-JG30-B3;	14.226679980377078
+3051	0.0007306001391533967	Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;	21.332062863000875
+unassigned	0.0		235.0
+4522	0.16215396571471577	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;Acidothermaceae;Acidothermus;	3793.916335827205
+5183	0.03265434440575633	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;	764.0136960614809
+7234	0.024934302829213825	Bacteria;Proteobacteria;Gammaproteobacteria;WD260;	583.3878832951159
+12976	0.001787115334324957	Bacteria;Dependentiae;Babeliae;Babeliales;Vermiphilaceae;	41.81313747720102
+4743	0.007032838892572103	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Tundrisphaera;	164.54733156950948
+11848	0.002484526280260531	Bacteria;Myxococcota;Polyangia;Polyangiales;Polyangiaceae;Pajaroellobacter;	58.13046137925564
+5248	0.002135820765611482	Bacteria;Planctomycetota;Planctomycetes;Planctomycetales;Schlesneriaceae;Schlesneria;	49.97179845301184
+4482	0.012041444089189446	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Pedosphaerales;Pedosphaeraceae;	281.7336673547655
+7718	0.018294203233495353	Bacteria;Proteobacteria;Alphaproteobacteria;Elsterales;	428.0294730540908
+7623	0.013522326997151007	Bacteria;Acidobacteriota;Acidobacteriae;Solibacterales;Solibacteraceae;Candidatus Solibacter;	316.3818847523421
+194	0.04419344913019964	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;	1033.994129299281
+7788	0.01714936054650024	Bacteria;Acidobacteriota;Acidobacteriae;Subgroup 2;	401.2435887064661
+9844	0.00124295863646877	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Nocardiaceae;Nocardia;araoensis;	29.08150321745981
+37	0.0018321118141601865	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Nocardiaceae;Nocardia;	42.86592011590589
+6329	0.0471664776533144	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;	1103.554077654597
+12361	0.0033035651590689317	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Edaphobacter;	77.29351402673579
+212	0.003249276436800872	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;	76.02332079183
+9	0.023045059446385612	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;	539.1852558670842
+16155	0.008950450702810914	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;lablabi;	209.41369509366695
+8256	0.007455086180539104	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;erythrophlei;	174.42665136607343
+539	0.0005515220807514743	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;japonicum;	12.903962123342245
+5386	0.003884906401199547	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Xanthobacteraceae;Bradyrhizobium;canariense;	90.8951550688658
+7060	0.0019178504447140904	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Chthoniobacterales;Chthoniobacteraceae;Chthoniobacter;	44.871946854975576
+6531	0.02511597876940437	Bacteria;Proteobacteria;Gammaproteobacteria;Gammaproteobacteria Incertae Sedis;Unknown Family;Acidibacter;	587.6385552677541
+7224	0.010953657405396076	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);	256.282722314052
+6516	0.030596682029149006	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidipila-Silvibacterium;	715.8705694359993
+16423	0.032389878481735676	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;Roseiarcus;	757.8259868371696
+617	0.016927997548175963	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;	396.064358634673
+3791	0.003357999233264626	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;cookii;	78.56710806069245
+5867	0.0009900901989055274	Bacteria;Actinobacteriota;Actinobacteria;Corynebacteriales;Mycobacteriaceae;Mycobacterium;kuopiense;	23.165140383792625
+2912	0.039080510600801886	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;Conexibacter;	914.3667065269617
+12438	0.020044977586268723	Bacteria;Actinobacteriota;Thermoleophilia;Solirubrobacterales;Solirubrobacteraceae;	468.9923405859293
+656	0.00567073371296382	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;	132.67815668221448
+12846	0.0006328018192666299	Bacteria;Bacteroidota;Bacteroidia;Sphingobacteriales;Sphingobacteriaceae;Mucilaginibacter;gotjawali;	14.80566416538134
+1251	0.0010876009584981229	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales;Opitutaceae;Opitutus;	25.446599625980582
+15804	0.0006392182357894254	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales;Opitutaceae;	14.955789062765186
+4456	0.02569239190646863	Bacteria;Proteobacteria;Alphaproteobacteria;Acetobacterales;Acetobacteraceae;	601.1248934356465
+1927	0.0023822888038300453	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Singulisphaera;	55.73841114321157
+4459	0.019894023017887195	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;	465.4604565495067
+16455	0.0102018049725015	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Aquisphaera;	238.69163094161757
+2316	0.006595767997622234	Bacteria;Actinobacteriota;Thermoleophilia;Gaiellales;	154.3211838403674
+6966	0.0015691744364851859	Bacteria;Actinobacteriota;Actinobacteria;Micrococcales;Microbacteriaceae;Galbitalea;	36.71397429044389
+4360	0.00457099975629958	Bacteria;Planctomycetota;Phycisphaerae;Tepidisphaerales;WD2101 soil group;	106.94768129814128
+1725	0.0018531138091531709	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Beijerinckiaceae;	43.35730379275674
+9017	0.000884112140508757	Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;	20.685571751483387
+362	0.02017063708545541	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Occallatibacter;	471.9323958884002
+12394	0.0011871798206258704	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Granulicella;mallensis;	27.77644626318349
+10668	0.012821068059510308	Bacteria;WPS-2;	299.97452938836267
+7851	0.0016125677324438034	Bacteria;Bdellovibrionota;Oligoflexia;0319-6G20;	37.72924723598767
+7206	0.010392175248998586	Bacteria;Bacteroidota;Bacteroidia;Chitinophagales;Chitinophagaceae;Puia;	243.14572430081992
+5100	0.007389976088633582	Bacteria;Actinobacteriota;Actinobacteria;Frankiales;Frankiaceae;Jatrophihabitans;	172.9032705457599
+8214	0.0007939325434442565	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;borealis;	18.57563971896527
+9403	0.0018616228935647138	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;acidisoli;	43.556390840733606
+5498	0.003925839339864457	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;	91.8528630348087
+8290	0.04613846752808	Bacteria;Actinobacteriota;Acidimicrobiia;	1079.5017247544877
+535	0.0023119231851219733	Bacteria;Proteobacteria;Gammaproteobacteria;Legionellales;Legionellaceae;Legionella;	54.092066762298806
+9380	0.0007409990410600645	Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Magnetospirillaceae;	17.33715456368233
+4921	0.012007441880985134	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Rhodanobacter;	280.9381176894092
+1846	0.000780315282646497	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Rhodanobacteraceae;Dyella;	18.25703666808009
+6992	0.00741206347176721	Bacteria;Acidobacteriota;Acidobacteriae;Bryobacterales;Bryobacteraceae;Bryobacter;	173.42004904893741
+18462	0.0012108558688046051	Bacteria;Planctomycetota;Planctomycetes;Isosphaerales;Isosphaeraceae;Candidatus Nostocoida;	28.330394762421346
+2988	0.00049359708882632	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;phenazinium;	11.54869108726941
+10216	0.0007577070136056554	Bacteria;Verrucomicrobiota;Verrucomicrobiae;Opitutales;Opitutaceae;IMCC26134;	17.728070997331518
+76	0.011507275071307705	Bacteria;Cyanobacteria;Cyanobacteriia;Chloroplast;	269.2357148433864
+60	0.0022959208462690283	Bacteria;Actinobacteriota;Actinobacteria;Streptomycetales;Streptomycetaceae;Streptomyces;	53.71766004015645
+5751	0.012885965657511135	Bacteria;Proteobacteria;Alphaproteobacteria;Micropepsales;Micropepsaceae;	301.492938488788
+11838	0.00044229532858667593	Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Burkholderiaceae;Burkholderia-Caballeronia-Paraburkholderia;sartisoli;	10.348383802942458
+unassigned	0.0		0.0
