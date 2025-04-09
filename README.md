@@ -66,8 +66,171 @@ After basecalling, you should have a unique .bam file. To separate the reads in 
 conda activate Samtools
 samtools fastq 01_Basecalling/my_sequences.bam > 01_Basecalling/my_sequences.fastq
 # Demultiplex using Guppy
-guppy_barcoder -i  01_Basecalling/ -s 01_Basecalling/ --barcode_kits "EXP-PBC096" --trim_adapters --device "cuda:all"
+guppy_barcoder -i  01_Basecalling/ -s 01_Basecalling --barcode_kits "EXP-PBC096" --trim_adapters --device "cuda:all"
 ```
+Some sequences will be classified inside unused barcodes or as unclassified. To double-check the unclassified reads, proceed as follows (optional):
+
+```bash
+# 1.	Copy the folders of the barcodes used during the experiment (for example from barcode01 to barcode 26) including the unclassified folder into a new 03_Demultiplexing folder.
+mkdir 03_Demultiplexing
+cp 01_Basecalling/barcode{01..n} 03_Demultiplexing
+
+# 2. Copy the .fastq files of unused barcode files in the unclassified folder. Replace the (i) with the number of the unused barcodes
+for f in 01_Basecalling/barcode()/*.gz;
+do
+   cp -v "$f" 03_Demultiplexing/unclassified/"${f//\//_}"
+done
+
+# 3. Create a single file (unclassified.trim.fastq) of unclassified sequences
+zcat 03_Demultiplexing/unclassified/*.gz > 03_Demultiplexing/unclassified.trim.fastq
+
+# 4. Demultiplex the unclassified reads using cutadapt
+conda activate cutadapt
+cutadapt -j 4 -e 0.05 -O 24 \
+        -g file:/path/to/my/barcodes.fasta \
+        -o 03_Demultiplexing/Demultiplexed/{name}.trim.fastq \
+        03_Demultiplexing/unclassified.trim.fastq
+
+# 5. Move the new demultiplexed files to the corresponding folder
+for f in 03_Demultiplexing/Demultiplexed/barcode*.trim.fastq
+do
+        file=$(basename ${f} .trim.fastq)
+        cp ${f} 03_Demultiplexing/${file}
+done
+```
+At the end, you should have a single folder for each barcode inside the 03_Demultiplexing folder
+
+## 4. Filtering
+Remove the low quality reads and the fragments with undesired lengths. In our case, we will keep reads with a quality scores higher than 10 and a length between 1300 bp and 1900 bp. Revisit the quality check results to define the filtering threshold.
+
+```bash
+conda activate chopper-v.0.8.0
+mkdir 04_Filtering
+for file in 03_Demultiplexing/barcode*
+do
+        folder=$(basename ${file})
+        mkdir 04_Filtering/${folder}
+        cat ${file}/*.fastq > ${file}/${folder}_complete.fastq
+        chopper --maxlength 1900 --minlength 1300 -q 10 -i ${file}/${folder}_complete.fastq  >  04_Filtering/${folder}/${folder}.filter.fastq
+done
+```
+
+## 5. Trimming
+Trim the primers and remaining adapters of the sequences.
+```bash
+conda activate cutadapt
+mkdir 05_Trimming
+for file in 04_Filtering/barcode*
+do
+       folder=$(basename ${file})
+       mkdir 05_Trimming/${folder}
+       cutadapt -g AGAGTTTGATCCTGGCTCAG  -a ACGGCTACCTTGTTACGACTT \
+       --minimum-length 1300 --maximum-length 1900 -q 10 \
+         ${file}/${folder}_complete.fastq -o 05_Trimming/${folder}/output_reads.fastq
+done
+```
+
+## 6. Second quality control
+Check the quality of the filtered and trimmed sequences and compare it with the files before cleaning.
+
+```bash
+mkdir 06_QualityControl_2
+conda activate Nanoplot
+
+# 1. Create a quality check for data already separated in barcodes - Before cleaning
+for file in 03_Demultiplexing/barcode*
+do
+        folder=$(basename ${file})
+        mkdir 06_QualityControl_2/${folder}
+        NanoPlot --fastq ${file}/${folder}_complete.fastq -o 06_QualityControl_2/${folder} -p ${folder}_before
+done
+
+# 2. Create a quality check for data already separated in barcodes - after cleaning
+for file in 05_Trimming/barcode*
+do
+       folder=$(basename ${file})
+       NanoPlot --fastq ${file}/output_reads.fastq -o 06_QualityControl_2/${folder} -p ${folder}_after
+done
+
+# 3. Create a summary table using the Stats results
+for file in 06_QualityControl_2/barcode*
+do
+        folder=$(basename ${file})
+        sed -n 2,8p ${file}/${folder}_beforeNanoStats.txt | sed 's/ /_/;s/ /_/' > ${file}/${folder}_Stats_before.txt
+        sed -n 2,8p ${file}/${folder}_afterNanoStats.txt | sed 's/ /_/;s/ /_/' > ${file}/${folder}_Stats_after.txt
+        join ${file}/${folder}_Stats_before.txt ${file}/${folder}_Stats_after.txt > ${file}/${folder}_join.txt
+        echo -e ${folder} | cat - ${file}/${folder}_join.txt > ${file}/${folder}_summary.txt
+done
+
+cat 06_QualityControl_2/barcode*/barcode*_summary.txt > 06_QualityControl_2/Stats_summary.txt
+```
+
+In the Stats_summary.txt file you will find a summary with some of the parameters evaluated during the quality check. 
+
+|barcode01 | Before | After|
+| --- | --- | --- |
+|Mean_read_length: |	1524.3 |	1524.6 |
+|Mean_read_quality: |	12.3 |	13.1 |
+|Median_read_length: |	1616	| 1520 |
+|Median_read_quality: |	15.7	| 16.5 |
+|Number_of_reads:	| 40553 |	21305 |
+|Read_length_N50:	| 1622 |	1521 |
+|STDEV_read_length:	| 499.2 |	65.1 |
+|**barcode02**		|
+| ... | ... | ... |
+
+Verify the number of reads keep after the cleaning before proceed with the last step.
+
+## 7. Taxonomic classification and abundance estimation
+The taxonomic classification and abundance estimation is performed using [emu](https://github.com/treangenlab/emu). To proceed, download the database from the emu [OSF UI](https://osf.io/56uf7/). For this exercise, We we downloaded the prebuilt SILVA database (silva.tar). 
+
+```bash
+# Create a file for the database and move the database there
+mkdir EMU_DB/SILVA
+mv Downloads/silva.tar EMU/SILVA
+# Extract the files from the data base
+tar -xvf EMU/SILVA/silva.tar
+
+# Classification
+mkdir 07_Classification
+for file in 05_Trimming/barcode*
+do
+       folder=$(basename ${file})
+       emu abundance ${file}/output_reads.fastq --threads 24 --db EMU/SILVA \
+               --output-dir  07_Classification --output-unclassified \
+               --output-basename ${folder} \
+               --keep-counts --keep-read-assignments
+done
+
+emu combine-outputs $OUTDIR/EMU "tax_id" --counts
+
+# Merge taxa files
+awk 'FNR==1 && NR!=1 {next} {print}' 07_Classification/barcode*_rel-abundance.tsv > 07_Classification/complete_taxa.tsv
+```
+For each barcode you will get a rel-abundance.tsv file with the relative abundance of each taxon, a read-assigment-distribution.tsv file with the distribution of the reads and an unclassified.fq file with the reads that couldn't be classified. Additionally, you will find a emu-combined-tax_id-counts.tsv file that contains the abundance of each taxon per barcode and a complete_taxa.tsv file with the taxonomic classification of all the identified taxa. Use this two files for your further analysis, for example, as an input for [phyloseq](https://joey711.github.io/phyloseq/).  
+
+Your emu-combined-tax_id-counts.tsv file should look like this:
+|tax_id|barcode01|barcode02|...|
+| --- | --- | --- | --- |
+|10080 | 23.238703 | 24.18286 | ... |
+|10126| 25.979147 | 11.303532 | ...|
+| ... | ... | ... | ... |
+
+And your complete_taxa.tsv file should look like this:
+
+|tax_id	|abundance|	lineage|	estimated counts|
+| --- | --- | --- | --- |
+|10080	|0.003789243549658579|	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;|	79.90756797520011|
+| 10126	|0.0011270978962392869	|Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;acidisoli;	|23.768240435894082|
+
+
+
+
+
+
+
+
+
 
 
 
