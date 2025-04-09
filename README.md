@@ -71,7 +71,7 @@ guppy_barcoder -i  01_Basecalling/ -s 01_Basecalling --barcode_kits "EXP-PBC096"
 Some sequences will be classified inside unused barcodes or as unclassified. To double-check the unclassified reads, proceed as follows (optional):
 
 ```bash
-# 1.	Copy the folders of the barcodes used during the experiment (for example from barcode01 to barcode 26) including the unclassified folder into a new 03_Demultiplexing folder.
+# 1. Copy the folders of the barcodes used during the experiment (for example from barcode01 to barcode 26) including the unclassified folder into a new 03_Demultiplexing folder.
 mkdir 03_Demultiplexing
 cp 01_Basecalling/barcode{01..n} 03_Demultiplexing
 
