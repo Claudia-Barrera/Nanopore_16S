@@ -71,12 +71,12 @@ guppy_barcoder -i  01_Basecalling/ -s 01_Basecalling --barcode_kits "EXP-PBC096"
 Some sequences will be classified inside unused barcodes or as unclassified. To double-check the unclassified reads, proceed as follows (optional):
 
 ```bash
-# 1. Copy the folders of the barcodes used during the experiment (for example from barcode01 to barcode 26) including the unclassified folder into a new 03_Demultiplexing folder.
+# 1. Copy only the folders of the barcodes used during the experiment (for example from barcode01 to barcode 26) including the unclassified folder into a new 03_Demultiplexing folder.
 mkdir 03_Demultiplexing
 cp 01_Basecalling/barcode{01..n} 03_Demultiplexing
 
 # 2. Copy the .fastq files of unused barcode files in the unclassified folder. Replace the (i) with the number of the unused barcodes
-for f in 01_Basecalling/barcode()/*.gz;
+for f in 01_Basecalling/barcode(i)/*.gz;
 do
    cp -v "$f" 03_Demultiplexing/unclassified/"${f//\//_}"
 done
@@ -101,11 +101,12 @@ done
 At the end, you should have a single folder for each barcode inside the 03_Demultiplexing folder
 
 ## 4. Filtering
-Remove the low quality reads and the fragments with undesired lengths. In our case, we will keep reads with a quality scores higher than 10 and a length between 1300 bp and 1900 bp. Revisit the quality check results to define the filtering threshold.
+Remove the low quality reads and the fragments with undesired lengths. In our case, we will keep reads with quality scores higher than 10 and a length between 1300 bp and 1900 bp. Revisit the quality check results to define the filtering threshold.
 
 ```bash
 conda activate chopper-v.0.8.0
 mkdir 04_Filtering
+
 for file in 03_Demultiplexing/barcode*
 do
         folder=$(basename ${file})
@@ -120,6 +121,7 @@ Trim the primers and remaining adapters of the sequences.
 ```bash
 conda activate cutadapt
 mkdir 05_Trimming
+
 for file in 04_Filtering/barcode*
 do
        folder=$(basename ${file})
@@ -137,7 +139,7 @@ Check the quality of the filtered and trimmed sequences and compare it with the 
 mkdir 06_QualityControl_2
 conda activate Nanoplot
 
-# 1. Create a quality check for data already separated in barcodes - Before cleaning
+# 1. Check the quality of the separated barcodes before cleaning
 for file in 03_Demultiplexing/barcode*
 do
         folder=$(basename ${file})
@@ -145,7 +147,7 @@ do
         NanoPlot --fastq ${file}/${folder}_complete.fastq -o 06_QualityControl_2/${folder} -p ${folder}_before
 done
 
-# 2. Create a quality check for data already separated in barcodes - after cleaning
+# 2. Check the quality of the separated barcodes after cleaning
 for file in 05_Trimming/barcode*
 do
        folder=$(basename ${file})
@@ -182,7 +184,7 @@ In the Stats_summary.txt file you will find a summary with some of the parameter
 Verify the number of reads keep after the cleaning before proceed with the last step.
 
 ## 7. Taxonomic classification and abundance estimation
-The taxonomic classification and abundance estimation is performed using [emu](https://github.com/treangenlab/emu). To proceed, download the database from the emu [OSF UI](https://osf.io/56uf7/). For this exercise, We we downloaded the prebuilt SILVA database (silva.tar). 
+The taxonomic classification and abundance estimation is performed using [emu](https://github.com/treangenlab/emu). To proceed, download the database from the emu [OSF UI](https://osf.io/56uf7/). For this exercise, We downloaded the prebuilt SILVA database (silva.tar). 
 
 ```bash
 # Create a file for the database and move the database there
@@ -193,6 +195,7 @@ tar -xvf EMU/SILVA/silva.tar
 
 # Classification
 mkdir 07_Classification
+
 for file in 05_Trimming/barcode*
 do
        folder=$(basename ${file})
@@ -223,7 +226,7 @@ And your complete_taxa.tsv file should look like this:
 |10080	|0.003789243549658579|	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;|	79.90756797520011|
 | 10126	|0.0011270978962392869	|Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;acidisoli;	|23.768240435894082|
 
-
+You can find and example of the outputs in the the [Example](/Example/) folder
 
 
 
