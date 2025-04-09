@@ -226,7 +226,7 @@ And your complete_taxa.tsv file should look like this:
 |10080	|0.003789243549658579|	Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;|	79.90756797520011|
 | 10126	|0.0011270978962392869	|Bacteria;Acidobacteriota;Acidobacteriae;Acidobacteriales;Acidobacteriaceae (Subgroup 1);Acidicapsa;acidisoli;	|23.768240435894082|
 
-You can find and example of the outputs in the the [Example](/Examples/) folder
+You can find and example of the outputs in the the [Examples](/Examples/) folder
 
 
 
