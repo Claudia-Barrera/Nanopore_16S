@@ -36,9 +36,9 @@ Convert all the .pod5 files saved in the /pass/ folder to `.fastq.qz` files usin
 # Create the output folder
 mkdir 01_Basecalling
 # Basecall the .pod5 files
-dorado duplex dna_r10.4.1_e8.2_400bps_sup@v4.2.0 /path/to/raw/data/pass --device cuda:all > 01_Basecalling
+dorado duplex dna_r10.4.1_e8.2_400bps_sup@v4.2.0 /path/to/raw/data/pass --device cuda:all > 01_Basecalling/my_sequences.bam
 # Create a summary file
-dorado summary $OUTDIR/duplex.bam > $OUTDIR/sequencing_summary.txt
+dorado summary 01_Basecalling/duplex.bam > $OUTDIR/sequencing_summary.txt
 ```
 ## 2. Quality control
 Check the quality of the data using Nanoplot or pycoQC. Use the sequencing_summary.txt file in the 01_Basecalling folder and save the results in a new 02_QualityControl folder.
@@ -57,7 +57,18 @@ You will get a condensed report After_Basecalling-report.html with figures like 
 
 ![](/Figures/pycoQC_result.png)
 
+Explore the results to decide the appropriate threshold  to filter your data.
+
 ## 3. Demultiplexing
+After basecalling, you should have a unique .bam file. To separate the reads in barcodes, convert the .bam file to .fastq and demultiplex using Guppy. Run this part in a machine with GPU.
+```bash
+# Convert the .bam to a .fastq file
+conda activate Samtools
+samtools fastq 01_Basecalling/my_sequences.bam > 01_Basecalling/my_sequences.fastq
+# Demultiplex using Guppy
+guppy_barcoder -i  01_Basecalling/ -s 01_Basecalling/ --barcode_kits "EXP-PBC096" --trim_adapters --device "cuda:all"
+```
+
 
 
 
