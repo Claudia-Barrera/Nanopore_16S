@@ -82,7 +82,7 @@ do
 done
 
 # 3. Create a single file (unclassified.trim.fastq) of unclassified sequences
-cat 03_Demultiplexing/unclassified/*.fastq > 03_Demultiplexing/unclassified.trim.fastq
+cat 03_Demultiplexing/unclassified/*.fastq > 03_Demultiplexing/unclassified.fastq
 
 # 4. Demultiplex the unclassified reads using cutadapt
 conda activate cutadapt
