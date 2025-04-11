@@ -92,7 +92,7 @@ cutadapt -j 4 -e 0.05 -O 24 \
         03_Demultiplexing/unclassified.fastq
 
 # 5. Move the new demultiplexed files to the corresponding folder
-for f in 03_Demultiplexing/Demultiplexed/barcode*.trim.fastq
+for f in 03_Demultiplexing/Demultiplexed/barcode*.fastq
 do
         file=$(basename ${f} .fastq)
         cp ${f} 03_Demultiplexing/${file}
