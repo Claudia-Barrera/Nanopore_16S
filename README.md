@@ -88,13 +88,13 @@ cat 03_Demultiplexing/unclassified/*.fastq > 03_Demultiplexing/unclassified.fast
 conda activate cutadapt
 cutadapt -j 4 -e 0.05 -O 24 \
         -g file:/path/to/my/barcodes.fasta \
-        -o 03_Demultiplexing/Demultiplexed/{name}.trim.fastq \
-        03_Demultiplexing/unclassified.trim.fastq
+        -o 03_Demultiplexing/Demultiplexed/{name}.fastq \
+        03_Demultiplexing/unclassified.fastq
 
 # 5. Move the new demultiplexed files to the corresponding folder
 for f in 03_Demultiplexing/Demultiplexed/barcode*.trim.fastq
 do
-        file=$(basename ${f} .trim.fastq)
+        file=$(basename ${f} .fastq)
         cp ${f} 03_Demultiplexing/${file}
 done
 ```
