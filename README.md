@@ -73,7 +73,7 @@ Some sequences will be classified inside unused barcodes or as unclassified. To 
 ```bash
 # 1. Copy only the folders of the barcodes used during the experiment (for example from barcode01 to barcode 26) including the unclassified folder into a new 03_Demultiplexing folder.
 mkdir 03_Demultiplexing
-cp 01_Basecalling/barcode{01..n} 03_Demultiplexing
+cp -r 01_Basecalling/barcode{01..n} 03_Demultiplexing
 
 # 2. Copy the .fastq files of unused barcode files in the unclassified folder. Replace the (i) with the number of the unused barcodes
 for f in 01_Basecalling/barcode(i)/*.gz;
