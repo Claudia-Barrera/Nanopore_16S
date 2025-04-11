@@ -76,13 +76,13 @@ mkdir 03_Demultiplexing
 cp -r 01_Basecalling/barcode{01..n} 03_Demultiplexing
 
 # 2. Copy the .fastq files of unused barcode files in the unclassified folder. Replace the (i) with the number of the unused barcodes
-for f in 01_Basecalling/barcode(i)/*.gz;
+for f in 01_Basecalling/barcode(i)/*.fastq;
 do
    cp -v "$f" 03_Demultiplexing/unclassified/"${f//\//_}"
 done
 
 # 3. Create a single file (unclassified.trim.fastq) of unclassified sequences
-zcat 03_Demultiplexing/unclassified/*.gz > 03_Demultiplexing/unclassified.trim.fastq
+cat 03_Demultiplexing/unclassified/*.fastq > 03_Demultiplexing/unclassified.trim.fastq
 
 # 4. Demultiplex the unclassified reads using cutadapt
 conda activate cutadapt
