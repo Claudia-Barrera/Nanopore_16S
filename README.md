@@ -128,7 +128,7 @@ do
        mkdir 05_Trimming/${folder}
        cutadapt -g AGAGTTTGATCCTGGCTCAG  -a ACGGCTACCTTGTTACGACTT \
        --minimum-length 1300 --maximum-length 1900 -q 10 \
-         ${file}/${folder}_complete.fastq -o 05_Trimming/${folder}/output_reads.fastq
+         ${file}/${folder}.filter.fastq -o 05_Trimming/${folder}/output_reads.fastq
 done
 ```
 
