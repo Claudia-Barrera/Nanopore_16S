@@ -199,13 +199,13 @@ mkdir 07_Classification
 for file in 05_Trimming/barcode*
 do
        folder=$(basename ${file})
-       emu abundance ${file}/output_reads.fastq --threads 24 --db EMU/SILVA \
+       emu abundance ${file}/output_reads.fastq --threads 24 --db EMU_DB/SILVA \
                --output-dir  07_Classification --output-unclassified \
                --output-basename ${folder} \
                --keep-counts --keep-read-assignments
 done
 
-emu combine-outputs $OUTDIR/EMU "tax_id" --counts
+emu combine-outputs 07_Classification "tax_id" --counts
 
 # Merge taxa files
 awk 'FNR==1 && NR!=1 {next} {print}' 07_Classification/barcode*_rel-abundance.tsv > 07_Classification/complete_taxa.tsv
